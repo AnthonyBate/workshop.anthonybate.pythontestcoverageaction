@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: oryks code coverage action
         id: selftest
-        uses: twyle/twyle/oryks-code-coverage@v0.2.2
+        uses: twyle/oryks-code-coverage@v0.1.0
         with:
           myinput: lyle
 
